@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Pokémon</title>
+    <!-- Enlaza Material Design CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Enlaza tu CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Pokedex</h1>
+        <table class="striped centered bordered highlight responsive-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Altura</th>
+                    <th>ID</th>
+                </tr>
+            </thead>
+            <tbody id="pokemon-table-body">
+                <!-- Aquí se generará la tabla con los datos de los Pokémon -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Antes de cerrar el body, enlaza jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Enlaza Material Design JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Enlaza tu archivo dataSource.js -->
+    <script src="dataSource.js"></script>
+    <!-- Enlaza tu archivo pokemon.js -->
+    <script src="pokemon.js"></script>
+    <!-- Enlaza tu archivo main.js -->
+    <script src="main.js"></script>
+</body>
+</html>
